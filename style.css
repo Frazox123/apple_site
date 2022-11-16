@@ -1,0 +1,80 @@
+body
+{
+    background-color: black;
+}
+header
+{
+    top: 0px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-right: 100px;
+    background: rgba(245, 245, 245, 0.068);
+    justify-content: space-between;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    width: 90%;
+    height: 10px;
+}
+p
+{
+    color: white;
+    padding: 10px;
+}
+p:hover
+{
+    padding: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color:rgb(154, 154, 154) ;
+    color: black;
+    border: 1px solid;
+    border-radius: 50px;
+    cursor: pointer;   
+    transition: 0.5s;
+}
+a
+{
+    margin: 0;
+    width: 5%;
+}
+.bag
+{
+    background-color: white;
+    width: 30px;
+    padding: 5px;
+}
+.bag:hover
+{
+    background-color: rgb(154, 154, 154);
+    width: 40px;
+    border-radius: 10px;
+    padding: 3px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.search
+{
+    width: 30px;
+    background-color: white;
+    padding: 5px;
+}
+.search:hover
+{
+    background-color: rgb(154, 154, 154);
+    width: 40px;
+    width: 40px;
+    border-radius: 10px;
+    padding: 3px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+img
+{
+    width: 40%;
+    margin: 0px;
+}
+img:hover
+{
+    width: 60%;
+    transition: 0.5s;
+}
